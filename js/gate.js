@@ -2,7 +2,7 @@
 // ponytail: client-side only, the HTML stays readable for anyone who opens the source; real protection = HTTP basic auth on the host.
 // Change the password: printf %s 'NEW' | sha256sum, paste the hash below.
 (function () {
-  var HASH = "5816049a827dadfcfb3d1d041dba487fa7864e0aa8370752eb8c679b4b033b27";
+  var HASH = "9d8148992290faf99f62a1da83c8ee11ede91ab339e5110fe58181496f9f3b2a";
   var KEY = "ff-gate";
   try { if (sessionStorage.getItem(KEY) === HASH) return; } catch (e) {}
 
