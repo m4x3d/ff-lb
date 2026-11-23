@@ -19,7 +19,7 @@
     var f = document.createElement("form");
     f.id = "gate";
     f.innerHTML =
-      '<label for="gate-pw"><strong>Vorschau Feuerwehr Lorsbach</strong><br>Bitte Passwort eingeben</label>' +
+      '<label for="gate-pw">Passwort</label>' +
       '<input id="gate-pw" type="password" autocomplete="current-password" required autofocus>' +
       '<button type="submit">Anzeigen</button><p role="alert"></p>';
     document.body.prepend(f);
